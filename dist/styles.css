@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=PT+Sans&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: 'MegaBrush';
+    src: url("FlyingBirds.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.hero {
+    font-family: "Playfair Display";
+    text-decoration: underline;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.tab {
+    font-size: 15px;
+    font-family: "Roboto";
+    border: none;
+    background-color: Transparent;
+}
+
+.tab:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.donut {
+    height: 50px;
+}
+
+.content-wrapper {
+    background-color: rgb(252, 247, 240);
+    flex: 1;
+    margin: 50px;
+    width: 500px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.Title {
+    margin-top: 50px;
+    font-family: MegaBrush;
+    font-size: 68px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.info {
+    margin-left: 100px;
+    position: absolute;
+    top: 75px;
+    font-family: MegaBrush;
+    font-size: 38px;
+    width: 70%;
+}
+
+.content {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
